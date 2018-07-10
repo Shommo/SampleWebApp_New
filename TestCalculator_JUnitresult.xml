@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-U1HST7V" name="junit.TestCalculator" skipped="0" tests="5" time="0.048" timestamp="2018-07-10T15:30:10">
+  <properties>
+    <property name="ant.project.invoked-targets" value="junit" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin" />
+    <property name="java.vm.version" value="25.171-b11" />
+    <property name="ant.library.dir" value="E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.4 compiled on June 19 2018" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.script" value="" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="E:\Somu\Practice\workspace\SampleWebApp" />
+    <property name="java.runtime.version" value="1.8.0_171-b11" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="basedir" value="E:\Somu\Practice\workspace\SampleWebApp" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\" />
+    <property name="ant.core.lib" value="E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="os.name" value="Windows 10" />
+    <property name="ant.home" value="E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4" />
+    <property name="ant.file.type.SampleWebApp" value="file" />
+    <property name="ant.project.name" value="SampleWebApp" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;." />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="10.0" />
+    <property name="ant.file" value="E:\Somu\Practice\workspace\SampleWebApp\build.xml" />
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.class.path" value="E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-launcher.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-antlr.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-apache-bcel.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-apache-bsf.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-apache-log4j.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-apache-oro.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-apache-regexp.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-apache-resolver.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-apache-xalan2.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-commons-logging.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-commons-net.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-jai.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-javamail.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-jdepend.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-jmf.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-jsch.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-junit.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-junit4.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-junitlauncher.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-launcher.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-netrexx.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-swing.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-testutil.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant-xz.jar;E:\Somu\Practice\apache-ant-1.10.4-bin\apache-ant-1.10.4\lib\ant.jar;C:\Program Files\Java\jdk1.8.0_171\lib\tools.jar" />
+    <property name="user.name" value="DESKTOP-U1HST7V$" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher junit" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.8.0_171" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="ant.file.SampleWebApp" value="E:\Somu\Practice\workspace\SampleWebApp\build.xml" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="ant.file.type" value="file" />
+    <property name="sun.desktop" value="windows" />
+    <property name="sun.cpu.isalist" value="amd64" />
+  </properties>
+  <testcase classname="junit.TestCalculator" name="testDivideByZero" time="0.0" />
+  <testcase classname="junit.TestCalculator" name="testAdd" time="0.0" />
+  <testcase classname="junit.TestCalculator" name="testSubtract" time="0.0" />
+  <testcase classname="junit.TestCalculator" name="testDivide" time="0.0" />
+  <testcase classname="junit.TestCalculator" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
